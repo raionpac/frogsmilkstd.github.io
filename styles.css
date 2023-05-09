@@ -325,3 +325,13 @@ i {
     flex-direction: row;
   }
 }
+
+@media (max-width: 600px) {
+  .slideshow-container {
+    display: none;
+  }
+
+  .sidebar {
+    margin-left: -10px;
+  }
+}

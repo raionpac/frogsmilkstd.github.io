@@ -145,3 +145,16 @@ i:hover {
     width: 100%;
   }
 }
+
+@media (max-width: 600px) {
+  .image-container {
+    display: none;
+  }
+
+  .content {
+    padding: 10px;
+  }
+  .sidebar {
+    margin-left: -10px;
+  }
+}
