@@ -1,0 +1,327 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Nunito", sans-serif;
+  background-color: #ffffff;
+  color: #404040;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+}
+
+h1 {
+  font-size: 1.9rem;
+}
+
+h2 {
+  font-size: 1.4rem;
+}
+
+h3 {
+  font-size: 1.2rem;
+}
+h4 {
+  font-size: 1rem;
+}
+
+i:hover {
+  color: #606060; /* Set icon hover color */
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar {
+  padding: 140px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-left: 40px;
+}
+
+.main {
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.logo {
+  display: inline-block;
+  width: 100px;
+  height: auto;
+  margin: 20px;
+}
+
+.logo img {
+  max-width: 100%;
+  height: auto;
+}
+
+.active {
+  color: #609754;
+}
+.slideshow-container {
+  position: relative;
+}
+.slide {
+  text-align: center;
+  background-color: #e0e0e0;
+  /* background-image: url("img/1.jpg");
+  background-size: cover;  */
+
+  box-sizing: border-box;
+  border-radius: 5px;
+  min-height: 300px;
+  /* color: #404040; */
+  width: 740px;
+  height: 360px;
+  overflow: hidden;
+}
+.slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.card2 {
+  text-align: center;
+  background-color: #e0e0e0;
+  background-image: url("img/2.jpg");
+  background-size: cover;
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  min-height: 300px;
+  color: #404040;
+  width: 360px;
+  height: 360px;
+}
+.card3 {
+  text-align: center;
+  background-color: #e0e0e0;
+  background-image: url("img/3.jpg");
+  background-size: cover;
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  min-height: 300px;
+  color: #404040;
+  width: 360px;
+  height: 360px;
+}
+.card4 {
+  text-align: center;
+  background-color: #e0e0e0;
+  background-image: url("img/3.png");
+  background-size: cover;
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  min-height: 300px;
+  color: #404040;
+  width: 360px;
+  height: 360px;
+}
+.card5 {
+  text-align: center;
+  background-color: #e0e0e0;
+  background-image: url("img/4.jpg");
+  background-size: cover;
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  min-height: 300px;
+  color: #404040;
+  width: 360px;
+  height: 360px;
+}
+.card6 {
+  text-align: center;
+  background-color: #e0e0e0;
+  background-image: url("img/5.jpg");
+  background-size: cover;
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  min-height: 300px;
+  color: #404040;
+  width: 360px;
+  height: 360px;
+}
+.card7 {
+  text-align: center;
+  background-color: #e0e0e0;
+  background-image: url("img/6.png");
+  background-size: cover;
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  min-height: 300px;
+  color: #404040;
+  width: 360px;
+  height: 360px;
+}
+.card8 {
+  text-align: center;
+  background-color: #e0e0e0;
+  background-image: url("img/7.jpg");
+  background-size: cover;
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  min-height: 300px;
+  color: #404040;
+  width: 360px;
+  height: 360px;
+}
+
+.card2 h4 {
+  text-align: center;
+  display: none;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #ffffff;
+  padding: 20px;
+  transition: all 0.3s ease;
+}
+.card2:hover h4 {
+  display: block;
+}
+.card3 h4 {
+  text-align: center;
+  display: none;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #ffffff;
+  padding: 20px;
+  transition: all 0.3s ease;
+}
+.card3:hover h4 {
+  display: block;
+}
+.card4 h4 {
+  text-align: center;
+  display: none;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #ffffff;
+  padding: 20px;
+  transition: all 0.3s ease;
+}
+.card4:hover h4 {
+  display: block;
+}
+.card5 h4 {
+  text-align: center;
+  display: none;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #ffffff;
+  padding: 20px;
+  transition: all 0.3s ease;
+}
+.card5:hover h4 {
+  display: block;
+}
+.card6 h4 {
+  text-align: center;
+  display: none;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #ffffff;
+  padding: 20px;
+  transition: all 0.3s ease;
+}
+.card6:hover h4 {
+  display: block;
+}
+.card7 h4 {
+  text-align: center;
+  display: none;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #ffffff;
+  padding: 20px;
+  transition: all 0.3s ease;
+}
+.card7:hover h4 {
+  display: block;
+}
+.card8 h4 {
+  text-align: center;
+  display: none;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #ffffff;
+  padding: 20px;
+  transition: all 0.3s ease;
+}
+.card8:hover h4 {
+  display: block;
+}
+
+.icons {
+  display: flex;
+  gap: 1px;
+  margin-top: 2px;
+}
+
+.icon {
+  padding: 1px;
+  text-align: center;
+}
+i {
+  font-size: 1.2rem; /* Adjust icon size as needed */
+  margin-right: 2px; /* Add spacing between icons */
+  color: #404040; /* Set icon color */
+}
+
+/* Add hover effect to icons */
+
+@media screen and (min-width: 600px) {
+  .container {
+    flex-direction: row;
+  }
+
+  .sidebar {
+    width: 25%;
+    background-color: #ffffff;
+  }
+
+  .main {
+    width: 75%;
+  }
+
+  .row {
+    flex-direction: row;
+  }
+}

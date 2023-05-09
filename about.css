@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Nunito", sans-serif;
+  background-color: #ffffff;
+  color: #404040;
+}
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+}
+h1 {
+  font-size: 1.9rem;
+}
+
+h2 {
+  font-size: 1.4rem;
+}
+
+h3 {
+  font-size: 1.2rem;
+}
+h4 {
+  font-size: 1rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar {
+  padding: 140px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-left: 40px;
+}
+
+.main {
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.logo {
+  display: inline-block;
+  width: 100px;
+  height: auto;
+  margin: 20px;
+}
+
+.logo img {
+  max-width: 100%;
+  height: auto;
+}
+
+.active {
+  color: #609754;
+}
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.icon {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.main {
+  padding: 2px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.image-container {
+  max-width: 100%;
+  text-align: center;
+  margin-bottom: 30px;
+  margin-right: 40px;
+  flex: 1;
+}
+
+.image-container img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  border-radius: 1%;
+}
+
+.content {
+  flex: 2;
+}
+
+.content p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.icons {
+  display: flex;
+  gap: 1px;
+  margin-top: 2px;
+}
+
+.icon {
+  padding: 1px;
+  text-align: center;
+}
+i {
+  font-size: 1.2rem; /* Adjust icon size as needed */
+  margin-right: 2px; /* Add spacing between icons */
+  color: #404040; /* Set icon color */
+}
+
+/* Add hover effect to icons */
+i:hover {
+  color: #606060; /* Set icon hover color */
+}
+
+@media (min-width: 600px) {
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: auto;
+    flex-direction: column;
+  }
+  /*.sidebar {
+    width: 25%;
+    background-color: #ffffff; 
+  } */
+  .main {
+    width: 75%;
+  }
+  .content {
+    width: 100%;
+  }
+}
